@@ -1,0 +1,70 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #CCCCCC;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh
+}
+.maincard{
+    background-color: #FFFFFF;
+    width: 343px;
+    height: 611px;
+    border-radius: 10px;
+}
+.maincontent{
+    padding: 51px 24px 24px 24px;
+}
+.img-bit{
+    height: 240px;
+}
+.heading{
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.details{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #6C7289;
+    margin-bottom: 24px;
+}
+.prices h1{
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    color: #3D8168;
+    padding-right: 19px;
+}
+.prices {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.prices h5{
+    color: #CCCCCC;
+    text-decoration: line-through;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+.buy{
+    font-family: "Montserrat", sans-serif;
+    width: 295px;
+    height: 48px;
+    color: #FFFFFF;
+    background-color: #3D8168;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Adds space between the icon and the text */
+
+}
